@@ -21,12 +21,8 @@ public class EquilibrandoSaldo {
 			System.out.println("Saldo insuficiente");
 		}
 		else {
-			//TODO: Imprimir a saída conforme a tabela de exemplos (uma casa decimal).
-			System.out.println("----------------Transações----------------");
-			System.out.println(String.format("Saldo Anterior--------------R$  %.1f" , saldoAtual));
-			System.out.println(String.format("Valor Depósito--------------R$  %.1f" , valorDeposito));
-			System.out.println(String.format("Valor Retirada--------------R$  %.1f" , (valorRetirada * -1)));
-			System.out.println(String.format("Saldo Atualizado--------------R$  %.1f" , saldoAtualizado));
+			
+			System.out.println(String.format("saldo atualizado na conta: %.1f" , saldoAtualizado));
 			
 		}
 	}
