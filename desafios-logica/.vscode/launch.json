@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BancoApp",
+            "request": "launch",
+            "mainClass": "quarto.BancoApp",
+            "projectName": "desafios-logica_92716524"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "terceiro.Main",
